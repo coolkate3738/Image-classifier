@@ -13,7 +13,7 @@ I used Loss and accuracy as my metrics to define model's success
 For the 1st part, the code is provided in the Image Classifier Project.ipynb notebook file.
 
 For the 2nd part, the code is in the train.py and predict.py file. In addition to these, you'll also need the files cat_to_name.json for predict.py to run the prediction using  a mapping of flower categories to real names
-
+### Note , I have not included model checkpoint in the repo as it is too large for Github repo, but you can generate it 
 ## Command line instructions for  train.py and predict.py
 
 In oder to successfully run train.py and predict.py the most basic level of arguments you would need to run is :
