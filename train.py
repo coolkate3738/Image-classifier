@@ -86,7 +86,7 @@ def get_args():
     parser = argparse.ArgumentParser()
     
     parser.add_argument("data_directory", type=str, help="data directory containing training and testing data")
-    parser.add_argument("--save_dir", type=str, default="checkpoint_2.pth",
+    parser.add_argument("--save_dir", type=str, default="checkpoint.pth",
                         help="directory where to save trained model and hyperparameters")
     parser.add_argument("--arch", type=str, default="vgg",
                         help="pre-trained model: vgg16, resnet34, alexnet")
