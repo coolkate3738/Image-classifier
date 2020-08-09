@@ -18,12 +18,15 @@ For the 2nd part, the code is in the train.py and predict.py file. In addition t
 
 In oder to successfully run train.py and predict.py the most basic level of arguments you would need to run is :
 ```
-python ./ImageClassifier/train.py './ImageClassifier/flowers'
+python ./train.py --save_dir '.'
+
+
 ```
 for train.py
 
 and
 ```
-python  ./ImageClassifier/predict.py --image_path './ImageClassifier/flowers/valid/10/image_07094.jpg' --checkpoint './ImageClassifier/checkpoint.pth' --category_names './ImageClassifier/cat_to_name.json'
+python  ./predict.py --image_path './flowers/valid/10/image_07094.jpg' --checkpoint_path './my_checkpoint.pth' --category_names_mapping './cat_to_name.json'
+
 ```
 For predict.py
